@@ -1,3 +1,16 @@
+.btn {
+  font-size: 1.8rem;
+  width: 85%;
+  height: 46px;
+  padding: 10px 40px;
+  border-radius: 16px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #006667;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

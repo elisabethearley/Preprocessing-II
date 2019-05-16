@@ -1,1 +1,18 @@
 // Mixins in here
+//<div class="btn">Sign Me Up!</div>
+
+.btn {
+    font-size: 1.80rem; 
+    width: 85%;
+    height: 46px;
+    padding: 10px 40px;
+    border-radius: 16px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+  
+    &:hover {
+      // The compiled color returned is #006667 
+      background-color: darken(teal, 5%)
+    }
+  }
