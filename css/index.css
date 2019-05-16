@@ -11,6 +11,22 @@
 .btn:hover {
   background-color: #006667;
 }
+/*.btn(@font-s, @width, @bgcolor, @color){
+    font-size: @font-s; 
+    width: @width;
+    height: 46px;
+    padding: 10px 40px;
+    border-radius: 16px;
+    background-color: @bgcolor;
+    color: @color;
+    cursor: pointer;
+
+.btn(1.8rem, 85%, teal, white);
+
+    &:hover { 
+      background-color: darken(teal, 5%);
+    }
+  }*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -181,6 +197,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  width: 100%;
+  padding: 4% 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  font-size: 1.55rem;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #03aeb1;
+}
+.links {
+  padding-top: 20px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -191,6 +228,9 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .content-welcome {
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;

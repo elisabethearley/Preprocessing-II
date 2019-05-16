@@ -1,8 +1,7 @@
 // Mixins in here
-//<div class="btn">Sign Me Up!</div>
-
+//Buttons
 .btn {
-    font-size: 1.80rem; 
+    font-size: 1.8rem; 
     width: 85%;
     height: 46px;
     padding: 10px 40px;
@@ -10,9 +9,25 @@
     background-color: teal;
     color: white;
     cursor: pointer;
-  
-    &:hover {
-      // The compiled color returned is #006667 
+
+    &:hover { 
       background-color: darken(teal, 5%)
     }
   }
+
+/*.btn(@font-s, @width, @bgcolor, @color){
+    font-size: @font-s; 
+    width: @width;
+    height: 46px;
+    padding: 10px 40px;
+    border-radius: 16px;
+    background-color: @bgcolor;
+    color: @color;
+    cursor: pointer;
+
+.btn(1.8rem, 85%, teal, white);
+
+    &:hover { 
+      background-color: darken(teal, 5%);
+    }
+  }*/
