@@ -14,16 +14,28 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+    @media @mobile {
+      width: 100%;
+      display: inline-block;
+    }
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+
+      @media @mobile {
+        width: 100%;
+        padding: 2%;
+      }
 
       img {
         border-radius: 10px;
@@ -35,6 +47,12 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
+    @media @mobile {
+      width: 100%;
+      display: inline-flex;
+      flex-direction: column-reverse;
+  }
+
     .text-content {
       padding-left: 1%;
       padding-right: 0;
@@ -43,6 +61,10 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 
@@ -52,6 +74,9 @@
 
     img {
       border-radius: 10px;
+
+      @media @mobile {
+        width: 100%;
     }
   }
 
@@ -60,6 +85,11 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+
+    @media @mobile {
+      width: 100%;
+      display: inline-block;
+    }
 
     .destination {
       width: 30%;
