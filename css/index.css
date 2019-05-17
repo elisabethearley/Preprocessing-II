@@ -4,12 +4,12 @@
   height: 46px;
   padding: 10px 40px;
   border-radius: 16px;
-  background-color: teal;
-  color: white;
+  background-color: #17A2B8;
+  color: #FFFFFF;
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #006667;
+  background-color: #117a8b;
 }
 /*.btn(@font-s, @width, @bgcolor, @color){
     font-size: @font-s; 
@@ -164,6 +164,7 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212529;
 }
 h1,
 h2,
@@ -228,6 +229,9 @@ a:hover {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .text-content-fun-bus {
+  margin-top: 20px;
 }
 .home .content-welcome {
   border-bottom: 2px dashed #C0C0C0;
